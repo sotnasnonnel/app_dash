@@ -36,11 +36,11 @@ def show_report(url):
 
 # Lista de relatórios com título e URL
 reports = {
-    "Relatório 1": "https://app.powerbi.com/view?r=eyJrIjoiZWFiN2VlZjQtZmNkMS00YmJkLWI1MzItYjYxNDMyYjdiZjY1IiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
-    "Relatório 2": "https://app.powerbi.com/view?r=eyJrIjoiNWE0NjY3MjEtMTdkNi00YjAwLTg3ZjgtNmM1ZDhhMzY1MGU0IiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
-    "Relatório 3": "https://app.powerbi.com/view?r=eyJrIjoiNDhmZmRhNzMtYzBiMS00ZjRmLThiMGUtYjc3NzkyNGRlODIwIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
-    "Relatório 4": "https://app.powerbi.com/view?r=eyJrIjoiMzBiMWI3MjQtYzQ0Zi00OWI0LTliY2ItNTAyNmQ4NzY3MzVkIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
-    "Relatório 5": "https://app.powerbi.com/view?r=eyJrIjoiYmY3NWIyNGMtNDdlYy00Y2JkLWEzYzgtY2Q5MWY3Y2Q1NDcxIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9"
+    "Navegação 1": "https://app.powerbi.com/view?r=eyJrIjoiZWFiN2VlZjQtZmNkMS00YmJkLWI1MzItYjYxNDMyYjdiZjY1IiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
+    "Navegação 2": "https://app.powerbi.com/view?r=eyJrIjoiNWE0NjY3MjEtMTdkNi00YjAwLTg3ZjgtNmM1ZDhhMzY1MGU0IiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
+    "Navegação 3": "https://app.powerbi.com/view?r=eyJrIjoiNDhmZmRhNzMtYzBiMS00ZjRmLThiMGUtYjc3NzkyNGRlODIwIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
+    "Navegação 4": "https://app.powerbi.com/view?r=eyJrIjoiMzBiMWI3MjQtYzQ0Zi00OWI0LTliY2ItNTAyNmQ4NzY3MzVkIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
+    "Navegação 5": "https://app.powerbi.com/view?r=eyJrIjoiYmY3NWIyNGMtNDdlYy00Y2JkLWEzYzgtY2Q5MWY3Y2Q1NDcxIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9"
 }
 
 # Menu lateral para seleção de relatórios
