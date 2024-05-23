@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 # Configurar a página para o layout 'wide'
 st.set_page_config(layout="wide", page_title="Dashboard", page_icon=":bar_chart:")
 
-# Estilizar a barra lateral
+# Estilizar a barra lateral e o conteúdo principal para responsividade
 st.markdown(
     """
     <style>
@@ -27,6 +27,22 @@ st.markdown(
     .sidebar .sidebar-content {
         padding: 1rem 2rem;
     }
+    .report-container {
+        width: 100%;
+        height: 100%;
+    }
+    @media (max-width: 768px) {
+        .report-container iframe {
+            width: 100% !important;
+            height: 600px !important;
+        }
+    }
+    @media (min-width: 769px) {
+        .report-container iframe {
+            width: 1200px !important;
+            height: 750px !important;
+        }
+    }
     </style>
     """,
     unsafe_allow_html=True
@@ -42,7 +58,11 @@ reports = {
 
 # Função para exibir cada relatório
 def show_report(url):
-    components.iframe(url, width=1200, height=750, scrolling=True)
+    st.markdown(f"""
+        <div class="report-container">
+            <iframe src="{url}" width="100%" height="750" frameborder="0" allowfullscreen></iframe>
+        </div>
+        """, unsafe_allow_html=True)
 
 # Barra lateral
 with st.sidebar:
