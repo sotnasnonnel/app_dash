@@ -50,10 +50,12 @@ st.markdown(
 
 # Lista de relatórios com título e URL
 reports = {
+    "BIM Terraplanagem":"https://app.powerbi.com/view?r=eyJrIjoiMWU2NTNiZmEtZjU2NS00ZmY1LTk5ZTgtOTRlZjNmYmI4M2U2IiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
     "4D e LPS": "https://app.powerbi.com/view?r=eyJrIjoiZWFiN2VlZjQtZmNkMS00YmJkLWI1MzItYjYxNDMyYjdiZjY1IiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
     "4D e Planejamento": "https://app.powerbi.com/view?r=eyJrIjoiNWE0NjY3MjEtMTdkNi00YjAwLTg3ZjgtNmM1ZDhhMzY1MGU0IiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
     "LPS": "https://app.powerbi.com/view?r=eyJrIjoiNDhmZmRhNzMtYzBiMS00ZjRmLThiMGUtYjc3NzkyNGRlODIwIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
     "Planejamento": "https://app.powerbi.com/view?r=eyJrIjoiMzBiMWI3MjQtYzQ0Zi00OWI0LTliY2ItNTAyNmQ4NzY3MzVkIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
+    
 }
 
 # Função para exibir cada relatório
