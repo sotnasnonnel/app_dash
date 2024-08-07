@@ -55,6 +55,8 @@ reports = {
     "4D e Planejamento": "https://app.powerbi.com/view?r=eyJrIjoiNWE0NjY3MjEtMTdkNi00YjAwLTg3ZjgtNmM1ZDhhMzY1MGU0IiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
     "LPS": "https://app.powerbi.com/view?r=eyJrIjoiNDhmZmRhNzMtYzBiMS00ZjRmLThiMGUtYjc3NzkyNGRlODIwIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
     "Planejamento": "https://app.powerbi.com/view?r=eyJrIjoiMzBiMWI3MjQtYzQ0Zi00OWI0LTliY2ItNTAyNmQ4NzY3MzVkIiwidCI6IjZkNDg1YWY3LTAxZjYtNGE2MC05OWEwLTQzOTQyNzJiMjUzNSJ9",
+    "Qualidade": "https://app.powerbi.com/groups/b55034dc-2aa9-4751-8d73-cbf5dde1573b/reports/4726e034-b1a9-4bc8-bf71-6a3674ca502d/ce1d0372c7f8c3ed1eb3?experience=power-bi",
+    "Suprimentos": "https://app.powerbi.com/groups/06241f2b-fd2d-4c5b-90b5-88eaa3108c7e/reports/f2c305ef-a8c1-42f3-bf5f-1a6a9982d326/ReportSection1dbf176c580410c69289?experience=power-bi",
     
 }
 
